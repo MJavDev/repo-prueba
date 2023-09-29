@@ -1,0 +1,69 @@
+
+.tarjetita {    
+    text-align: center;  
+    margin-bottom: 50px;
+    padding: 1.5rem;
+    
+}
+
+.card_title-fav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+}
+
+
+.card_price{
+    text-align: start;
+}
+
+.contenedor-img-out{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgProd {
+    width: 300px;
+    position: relative;
+}
+
+.out-of-stock_bg{
+    position: absolute;
+    width: 100%;    
+    height: 100%;
+    background-color: rgb(255, 255, 255, 0.65);
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.out-of-stock_title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.card_line{
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.more_details {    
+    padding: 6px 20px;
+    color: black;
+    border: none;    
+    background-color:black;
+    color: white;
+    font-size: 1rem;    
+    margin: 0 auto;    
+    border-radius: 5px;
+    cursor: pointer;
+}
