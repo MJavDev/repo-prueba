@@ -1,20 +1,20 @@
 import './index.css'
 import './App.css'
-import { Header } from "./Components/Header/Header"
+import { Header } from "./components/Header/Header"
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
-import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetailContainer";
-import { Footer } from "./Components/Footer/Footer"
-import { PageNotFound } from './Components/PageNotFound/PageNotFound'
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
+import { Footer } from "./components/Footer/Footer"
+import { PageNotFound } from './components/PageNotFound/PageNotFound'
 import { CartProvider } from "./context/CartContext";
-import WishView from "./Components/WishView/WishView";
-import CartView from "./Components/CartView/CartView";
+import WishView from "./components/WishView/WishView";
+import CartView from "./components/CartView/CartView";
 import { SearchProvider } from './context/SearchContext'
-import Checkout from "./Components/Checkout/Checkout";
+import Checkout from "./components/Checkout/Checkout";
 import { WishProvider } from './context/WishContext'
-import { ContactRoute } from './Components/ContactRoute/ContactRoute'
-import { AboutRoute } from './Components/AboutRoute/AboutRoute'
-import { HomeRoute } from './Components/HomeRoute/HomeRoute'
-import { CategoryRoute } from './Components/CategoryRoute/CategoryRoute'
+import { ContactRoute } from './components/ContactRoute/ContactRoute'
+import { AboutRoute } from './components/AboutRoute/AboutRoute'
+import { HomeRoute } from './components/HomeRoute/HomeRoute'
+import { CategoryRoute } from './components/CategoryRoute/CategoryRoute'
 
 
 

@@ -1,4 +1,4 @@
-import './guarantee.scss'
+import './Guarantee.scss'
 import guaranteeIlus from '../../assets/30days.svg'
 
 export const Guarantee = () => {
